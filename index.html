@@ -2,10 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Site - Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Header Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">MY PORTFOLIO</h1>
+        <ul class="nav-links">
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Bio Section -->
+    <section id="bio" class="section bio-section">
+      <div class="section-content">
+        <h2 class="section-title">About Me</h2>
+        <div class="bio-container">
+          <img src="img/profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+          <div class="bio-text">
+            <p>Hi! I'm a web development student passionate about creating beautiful and functional websites. I'm learning HTML, CSS, and JavaScript to build amazing projects.</p>
+            <p>Welcome to my portfolio! Here you'll find some of my recent projects and skills I'm developing throughout my college course.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="section-content">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="material-icons skill-icon">code</i>
+            <h3>HTML</h3>
+            <p>Semantic markup and proper document structure</p>
+          </div>
+          <div class="skill-card">
+            <i class="material-icons skill-icon">palette</i>
+            <h3>CSS</h3>
+            <p>Responsive design and modern styling techniques</p>
+          </div>
+          <div class="skill-card">
+            <i class="material-icons skill-icon">terminal</i>
+            <h3>JavaScript</h3>
+            <p>Interactive web experiences and DOM manipulation</p>
+          </div>
+          <div class="skill-card">
+            <i class="material-icons skill-icon">devices</i>
+            <h3>Responsive Design</h3>
+            <p>Mobile-first approach for all devices</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="section-content">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-image" style="background-color: #ff6b9d;"></div>
+            <h3>Project 1</h3>
+            <p>A description of your first project goes here. Talk about what you built and what technologies you used.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+          <div class="project-card">
+            <div class="project-image" style="background-color: #c06c84;"></div>
+            <h3>Project 2</h3>
+            <p>A description of your second project goes here. Highlight the features and what you learned.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+          <div class="project-card">
+            <div class="project-image" style="background-color: #6c5b7b;"></div>
+            <h3>Project 3</h3>
+            <p>A description of your third project goes here. Share what makes this project special.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
